@@ -7,7 +7,8 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import moment from 'moment'
+console.log(moment())
 export default {
   name: 'App',
   components: {
